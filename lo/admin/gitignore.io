@@ -3,5 +3,5 @@ define('HOST','localhost');
 define('USUARIO','root');
 define('SENHA','');
 define('DB','ifce');
-$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die('Não foi possicel conectar');
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die('Não foi possivel conectar');
 ?>
